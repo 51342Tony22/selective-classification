@@ -1,0 +1,30 @@
+dataset:
+  name: baf_base
+  domain: financial_fraud
+  source: kaggle_bank_account_fraud_neurips_2022
+  local_path: data/raw/baf/Base_50k.parquet
+  source_full_path: data/raw/baf/Base.parquet
+  split_assignments_path: data/interim/baf_50k_split_assignments.parquet
+  target: fraud_bool
+  month_column: month
+  positive_label: 1
+  sample:
+    rows: 50000
+    seed: 7
+    stratify_by: [month, fraud_bool]
+  split:
+    type: temporal
+    train_months: [0, 1, 2, 3, 4]
+    calibration_months: [5]
+    threshold_selection_months: [6]
+    test_months: [7]
+
+models:
+  main_experiment: [logistic_regression]
+
+calibration:
+  main_experiment: [none]
+
+thresholds:
+  single_baselines: [default_0_5, macro_f1]
+  abstention_budgets: [0.01, 0.05, 0.10]

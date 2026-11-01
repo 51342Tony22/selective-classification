@@ -1,0 +1,32 @@
+dataset:
+  name: online_shoppers_purchasing_intention
+  domain: ecommerce_purchase_prediction
+  source: uci_ml_repository_online_shoppers_purchasing_intention
+  local_path: data/raw/online_shoppers/online_shoppers_intention.csv
+  target: Revenue
+  positive_label: true
+  split:
+    type: stratified_train_calibration_validation_test
+    train: 0.60
+    calibration: 0.15
+    threshold_selection: 0.15
+    test: 0.10
+
+preprocessing:
+  numeric_imputation: median
+  categorical_imputation: most_frequent
+  categorical_encoding: one_hot
+  scaling_for_linear_and_mlp: standard
+  fit_preprocessing_on_training_only: true
+
+models:
+  smoke_test: logistic_regression
+  full: [logistic_regression, lightgbm, mlp]
+
+calibration:
+  smoke_test: [none]
+  full: [none, platt, isotonic, temperature]
+
+thresholds:
+  single_baselines: [default_0_5, macro_f1, balanced_accuracy, mcc]
+  abstention_budgets: [0.01, 0.02, 0.05, 0.10]

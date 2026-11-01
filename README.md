@@ -38,3 +38,7 @@ Review the configurations and dataset prerequisites before launching a full expe
 Allowing abstention can reduce balanced selective risk. Asymmetric dual thresholds do not consistently outperform symmetric thresholds when coverage is matched. The abstention interval represents uncertainty/rejection, not an implemented human-review service. Interpret results by dataset, class distribution, and abstention budget.
 
 `SOURCE_SNAPSHOT.json` records the selected local files as of 2026-11-01. Earlier drafts, raw data, local environments, and unrelated human-deferral studies are excluded.
+
+## Later APS / BEE revision
+
+The separately preserved [APS and BEE gate extension](extensions/aps-bee-gate/README.md) includes the later dataset-loader and validation-gate changes. Its source and tests are retained independently from the main saved result version.

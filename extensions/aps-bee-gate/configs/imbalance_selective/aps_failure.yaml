@@ -1,0 +1,27 @@
+dataset:
+  name: aps_failure
+  domain: industrial_predictive_maintenance
+  source: uci_aps_failure_at_scania_trucks
+  training_path: data/raw/aps_failure/aps_failure_training_set.csv
+  test_path: data/raw/aps_failure/aps_failure_test_set.csv
+  target: class
+  positive_label: pos
+  split:
+    type: predefined_train_test
+    train_label: train
+    test_label: test
+    train: 0.70
+    calibration: 0.15
+    threshold_selection: 0.15
+
+preprocessing:
+  numeric_imputation: median
+  scaling_for_linear_and_mlp: standard
+  fit_preprocessing_on_training_only: true
+
+models:
+  full: [logistic_regression, lightgbm, mlp]
+
+thresholds:
+  single_baselines: [default_0_5, balanced_accuracy]
+  abstention_budgets: [0.01, 0.05, 0.10]
