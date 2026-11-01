@@ -1,0 +1,23 @@
+project:
+  seeds: [7, 17, 177]
+
+datasets:
+  - baf
+  - secom
+  - online_shoppers
+
+models:
+  - logistic_regression
+  - lightgbm
+  - mlp
+
+calibration:
+  methods: [none, platt, isotonic, temperature]
+
+thresholds:
+  single_baselines: [default_0_5, macro_f1, balanced_accuracy, mcc]
+  abstention_budgets: [0.01, 0.02, 0.05, 0.10]
+
+controlled_imbalance:
+  train_ratios: ["1:5", "1:10", "1:20", "1:50"]
+

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="520" viewBox="0 0 980 520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="490.0" y="30" text-anchor="middle" font-family="Arial" font-size="20">Coverage-Risk Tradeoff by Policy Family</text>
+<polyline points="483.6,300.4 722.9,293.4 917.0,286.7" fill="none" stroke="#b65f3b" stroke-width="2" opacity="0.65"/>
+<circle cx="483.6" cy="300.4" r="3" fill="#b65f3b" opacity="0.8"/>
+<circle cx="722.9" cy="293.4" r="3" fill="#b65f3b" opacity="0.8"/>
+<circle cx="917.0" cy="286.7" r="3" fill="#b65f3b" opacity="0.8"/>
+<polyline points="450.2,368.2 710.9,356.0 904.1,348.3" fill="none" stroke="#b65f3b" stroke-width="2" opacity="0.65"/>
+<circle cx="450.2" cy="368.2" r="3" fill="#b65f3b" opacity="0.8"/>
+<circle cx="710.9" cy="356.0" r="3" fill="#b65f3b" opacity="0.8"/>
+<circle cx="904.1" cy="348.3" r="3" fill="#b65f3b" opacity="0.8"/>
+<polyline points="405.2,378.2 669.5,367.2 898.9,356.4" fill="none" stroke="#b65f3b" stroke-width="2" opacity="0.65"/>
+<circle cx="405.2" cy="378.2" r="3" fill="#b65f3b" opacity="0.8"/>
+<circle cx="669.5" cy="367.2" r="3" fill="#b65f3b" opacity="0.8"/>
+<circle cx="898.9" cy="356.4" r="3" fill="#b65f3b" opacity="0.8"/>
+<polyline points="692.4,149.5 901.6,148.7 945.0,147.9" fill="none" stroke="#b65f3b" stroke-width="2" opacity="0.65"/>
+<circle cx="692.4" cy="149.5" r="3" fill="#b65f3b" opacity="0.8"/>
+<circle cx="901.6" cy="148.7" r="3" fill="#b65f3b" opacity="0.8"/>
+<circle cx="945.0" cy="147.9" r="3" fill="#b65f3b" opacity="0.8"/>
+<circle cx="945.0" cy="285.3" r="3" fill="#555555" opacity="0.8"/>
+<circle cx="945.0" cy="346.2" r="3" fill="#555555" opacity="0.8"/>
+<circle cx="945.0" cy="354.5" r="3" fill="#555555" opacity="0.8"/>
+<circle cx="945.0" cy="147.9" r="3" fill="#555555" opacity="0.8"/>
+<polyline points="431.8,299.6 689.5,292.8 895.1,286.6" fill="none" stroke="#2f6f73" stroke-width="2" opacity="0.65"/>
+<circle cx="431.8" cy="299.6" r="3" fill="#2f6f73" opacity="0.8"/>
+<circle cx="689.5" cy="292.8" r="3" fill="#2f6f73" opacity="0.8"/>
+<circle cx="895.1" cy="286.6" r="3" fill="#2f6f73" opacity="0.8"/>
+<polyline points="490.2,365.6 742.7,355.4 906.9,348.3" fill="none" stroke="#2f6f73" stroke-width="2" opacity="0.65"/>
+<circle cx="490.2" cy="365.6" r="3" fill="#2f6f73" opacity="0.8"/>
+<circle cx="742.7" cy="355.4" r="3" fill="#2f6f73" opacity="0.8"/>
+<circle cx="906.9" cy="348.3" r="3" fill="#2f6f73" opacity="0.8"/>
+<polyline points="405.5,378.5 677.9,366.8 894.4,357.0" fill="none" stroke="#2f6f73" stroke-width="2" opacity="0.65"/>
+<circle cx="405.5" cy="378.5" r="3" fill="#2f6f73" opacity="0.8"/>
+<circle cx="677.9" cy="366.8" r="3" fill="#2f6f73" opacity="0.8"/>
+<circle cx="894.4" cy="357.0" r="3" fill="#2f6f73" opacity="0.8"/>
+<polyline points="446.8,151.2 709.5,150.8 945.0,147.9" fill="none" stroke="#2f6f73" stroke-width="2" opacity="0.65"/>
+<circle cx="446.8" cy="151.2" r="3" fill="#2f6f73" opacity="0.8"/>
+<circle cx="709.5" cy="150.8" r="3" fill="#2f6f73" opacity="0.8"/>
+<circle cx="945.0" cy="147.9" r="3" fill="#2f6f73" opacity="0.8"/>
+<text x="490.0" y="492" text-anchor="middle" font-family="Arial" font-size="13">Coverage</text>
+<text x="18" y="260.0" text-anchor="middle" transform="rotate(-90 18 260.0)" font-family="Arial" font-size="13">Balanced selective risk</text>
+</svg>

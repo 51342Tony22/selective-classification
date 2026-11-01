@@ -1,0 +1,4 @@
+dataset,config,local_path,local_path_exists,split_assignments_path,split_assignments_exists,split_type
+baf,configs/imbalance_selective/baf.yaml,/Users/starsfalling/Documents/AT/Project/human-deferral-worthwhile-new-direction/data/raw/baf/Base.parquet,True,/Users/starsfalling/Documents/AT/Project/human-deferral-worthwhile-new-direction/data/interim/baf_split_assignments.parquet,True,temporal
+secom,configs/imbalance_selective/secom.yaml,/Users/starsfalling/Documents/AT/Project/human-deferral-worthwhile-new-direction/data/raw/secom,True,,,repeated_stratified_cv
+online_shoppers,configs/imbalance_selective/online_shoppers.yaml,/Users/starsfalling/Documents/AT/Project/human-deferral-worthwhile-new-direction/data/raw/online_shoppers/online_shoppers_intention.csv,True,,,stratified_train_calibration_validation_test

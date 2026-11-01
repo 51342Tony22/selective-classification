@@ -1,0 +1,442 @@
+{
+  "snapshot_date": "2026-11-01",
+  "description": "Selected source files and saved reports. Digests describe copied files before GitHub packaging documentation was added.",
+  "files": [
+    {
+      "path": "src/common/__init__.py",
+      "sha256": "67482c23e09d2051a7c70c978d5dd0e3bc988bbad8ec1df7d6dc0010bd6bab2b"
+    },
+    {
+      "path": "src/common/bootstrap.py",
+      "sha256": "8e324b94d6672bf3036a0f81b4ab3317fbeaa0981c79dcbbc6fc85db97d5ea6f"
+    },
+    {
+      "path": "src/common/calibration.py",
+      "sha256": "df554602a9fe4476e1c31894d2c58f20e8a42d7e5f520f937aeef8ae6c5b514b"
+    },
+    {
+      "path": "src/common/data_audit.py",
+      "sha256": "b402f307c7d874eb7af5795f6f699617765822182a0d7e38363ea1d9265602a7"
+    },
+    {
+      "path": "src/common/data_split.py",
+      "sha256": "3bbaf63a3c857d8382f77dda081f6460727a809e3ad3baeedac078569e9af0f5"
+    },
+    {
+      "path": "src/common/resampling.py",
+      "sha256": "7ae0a90e3ff7fe6147081e96d5ccb21049036bcee073e9023e9d09f9fd94753e"
+    },
+    {
+      "path": "src/common/selective_metrics.py",
+      "sha256": "c803fc96867a2713b10e88ed151196e3853560f364d866ea1e56c95f42bbfd69"
+    },
+    {
+      "path": "src/common/threshold_search.py",
+      "sha256": "76d64e38b0a27cde663120d267d3791e5c890baa0390a0abeb6a6354e47279fe"
+    },
+    {
+      "path": "src/imbalance_selective/__init__.py",
+      "sha256": "65d93a66364f8aea8a58853b79c76d3db6a23968765273b55df67082ba889474"
+    },
+    {
+      "path": "src/imbalance_selective/datasets.py",
+      "sha256": "4bb28dd9f8a37f2940b80db2b96e59f65316604770ae17ca4f832821cffe43da"
+    },
+    {
+      "path": "src/imbalance_selective/experiment_matrix.py",
+      "sha256": "3f595ae66839d8c4983307a6c1c47b963c9304cfd5b1e2040cf2990a13661187"
+    },
+    {
+      "path": "src/imbalance_selective/main_experiment.py",
+      "sha256": "d2e8583eb4229d81837c4a1e6f04542af8a913bf167daac98c4c292775e62feb"
+    },
+    {
+      "path": "src/imbalance_selective/phase2_policies.py",
+      "sha256": "c03473dee8d70faa8acc141e3332f30f7d5d00cd6045cddf738dee1bb11b203e"
+    },
+    {
+      "path": "src/imbalance_selective/preprocessing.py",
+      "sha256": "f7439a499630a52fa39d2ce604a40ccdff78a6df04d467f098fac1ee5ba28f5d"
+    },
+    {
+      "path": "src/imbalance_selective/smoke_test.py",
+      "sha256": "86e0181dff12a8561ef30b8d33d39291603132b7614a10d341dde221d84f1036"
+    },
+    {
+      "path": "scripts/audit_baf_full_predictions.py",
+      "sha256": "8a01702e9184a19b05a77a957e707336e91acfd2840d8dd2298c7e746649667e"
+    },
+    {
+      "path": "scripts/audit_controlled_imbalance.py",
+      "sha256": "ba71713e347a1cdc861be3c81885d395498bcf6661f471a9405dab12156ca392"
+    },
+    {
+      "path": "scripts/build_selective_thresholds_word.py",
+      "sha256": "f0d94139e7ec9e8beb327c5664965f2e11fe016112ed2547a07f32fc7b02ddb5"
+    },
+    {
+      "path": "scripts/create_baf_sample.py",
+      "sha256": "b06b1fdd65b3d5e1eb9eca0fd02fa31b52ea5aaeb42813e3a503ea28d621e31f"
+    },
+    {
+      "path": "scripts/create_phase2_paper_artifacts.py",
+      "sha256": "c5760483fca2d85bdc8b8a024c2c4c9a5891d84a936380281ab4485716adbb1a"
+    },
+    {
+      "path": "scripts/create_revision_audit_artifacts.py",
+      "sha256": "3e450cc78f3994edd0d98e72e5cd442257a8c28c44a31855cbcd6e3fd45b4d9a"
+    },
+    {
+      "path": "scripts/download_baf.py",
+      "sha256": "db90fd425259236b34b324af4cc1a681e884bb9f3d4523257983fe882b3787b9"
+    },
+    {
+      "path": "scripts/make_result_figures.py",
+      "sha256": "002398faaa1df378e4e50a60240238233fcc24f883d76a72fe0118d03a37df95"
+    },
+    {
+      "path": "scripts/prepare_final_training_manifest.py",
+      "sha256": "88f38c3981a00024f4bcb859b42c695d152f555fc82fb00936118c5bee4c77cd"
+    },
+    {
+      "path": "scripts/run_main_experiments.py",
+      "sha256": "cb73e8f162255366697a8ec7ba5a3a588f51e22adda96b3aee124a461a7a1913"
+    },
+    {
+      "path": "scripts/run_phase2_baf_full_natural.py",
+      "sha256": "739e6eed49d43815d7701b77a5a6fbd61ae46c5659e9b21bef589f38501ba2c9"
+    },
+    {
+      "path": "scripts/run_phase2_final_local.py",
+      "sha256": "d0b0fcd53263a92f0db0c4e2dd030523345cc1482b564c121850f6afe50731fa"
+    },
+    {
+      "path": "scripts/run_phase2_smoke_test.py",
+      "sha256": "f3e367c0e6cf8e215b093090d26823b9fc2693f972066f9d65414507ace272f8"
+    },
+    {
+      "path": "scripts/run_threshold_grid_sensitivity.py",
+      "sha256": "73b904957236aa7e1cd4a26c77313a4bf89588c6b5ee5708c96b1b814d207c22"
+    },
+    {
+      "path": "scripts/summarize_phase2_final.py",
+      "sha256": "b1b345e67220a9aaaec390b456398866aee2017d116680b9fad4423150923fed"
+    },
+    {
+      "path": "tests/test_bootstrap.py",
+      "sha256": "ab5d01ea7e43fa36eccb77ef068485a430e249dbb37945c5eb0034b0c7fc1756"
+    },
+    {
+      "path": "tests/test_calibration.py",
+      "sha256": "03201c946573e9549b36b763e1fa7d4689e34ecf7cf1ccbbc2451d512986908e"
+    },
+    {
+      "path": "tests/test_data_audit.py",
+      "sha256": "0fc6bc465bb4ac962a1be58b68f42e178c3de2c9061c4cddb137ef917a903231"
+    },
+    {
+      "path": "tests/test_data_split.py",
+      "sha256": "2c439d4d3fc54b5120736e4a3cf489a203052cb9c89cfcfa2d30cb921b53e430"
+    },
+    {
+      "path": "tests/test_datasets.py",
+      "sha256": "c8535c99896eaa1611c789d4d5d0414166a2cac5377acded0915d3b75cce1d09"
+    },
+    {
+      "path": "tests/test_experiment_matrix.py",
+      "sha256": "e3f2b54405f053b72e2a0fc93f035312a589be0d5b9e0d89b918838adb45561f"
+    },
+    {
+      "path": "tests/test_model_pipelines.py",
+      "sha256": "5beec48efcd2fa4191bac1d2fa5d4d4970d6c3c18dd0e25ec9607f7d9ac549cb"
+    },
+    {
+      "path": "tests/test_phase2_policies.py",
+      "sha256": "68d5e58020517a8181972af91d579e74e088dadee54be26479dc417f514017e8"
+    },
+    {
+      "path": "tests/test_resampling.py",
+      "sha256": "8da1def66ef08e4e8bbb7cf9317cbafea45c7ac5226f27b376679f3ed12099da"
+    },
+    {
+      "path": "tests/test_selective_metrics.py",
+      "sha256": "772018a6d71258fa408aeb5b4d6763c3fa938384795c55009f38d165014e7816"
+    },
+    {
+      "path": "tests/test_smoke_test.py",
+      "sha256": "4ceceedcf3c51e89c90a9434393d7e923a1b6b23701f363d8f78b52b82b93aed"
+    },
+    {
+      "path": "tests/test_threshold_search.py",
+      "sha256": "666008b542e9ec47f91c2b802f2569249b3f5e837d25c76895ad269843a4e8f2"
+    },
+    {
+      "path": "configs/imbalance_selective/baf.yaml",
+      "sha256": "e8a5199b6e2ad4058a9ac63be45e03793d88ab4f20ad2cd653a08313ec2020d4"
+    },
+    {
+      "path": "configs/imbalance_selective/baf_50k.yaml",
+      "sha256": "0726913a464d65b5cbd284355f0d10fcf7a5de93c953d51292d8d8c76cdd5185"
+    },
+    {
+      "path": "configs/imbalance_selective/full_matrix.yaml",
+      "sha256": "15142231b74498dd74aede7dfd3f0dc1fa86cc88ee8e890ebd8fb490d149afd5"
+    },
+    {
+      "path": "configs/imbalance_selective/online_shoppers.yaml",
+      "sha256": "5b4d07db54c1554767c38c410a963a1f267daaf0f6a3b1c03fbc312ec82f48a1"
+    },
+    {
+      "path": "configs/imbalance_selective/secom.yaml",
+      "sha256": "bcf92cda03a452f64404a5906b52795c9ba9b34d41e03c670b910641fad683a5"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "6bb8c34320ef5aa9ff1852761dcb0996b676f573ca810d544d9e1247cc306ba3"
+    },
+    {
+      "path": "references.bib",
+      "sha256": "66f4cbe877f6b924183ef2aa66e4a2ecf742b050493322f22d0c79e848d5d7e5"
+    },
+    {
+      "path": "CONTROLLED_IMBALANCE_FEASIBILITY.md",
+      "sha256": "312eec3914491431fd5596ae111d0db4b63289658c4aa39f91be472aae3430b8"
+    },
+    {
+      "path": "PHASE2_METHOD_LOCK_AND_BAF_SCALE_PLAN.md",
+      "sha256": "fd8c586ef72960982d543741a91acc3ecb810f1f565e3e80f39959fff6395b26"
+    },
+    {
+      "path": "README.research.md",
+      "sha256": "62ebfd3bde253341c43b76942fca90b010d459c8b15da6dc5294d6fd186e7762"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/FINAL_PHASE2_REPORT.md",
+      "sha256": "f122b426869fc0372e140a2ffc306e4a8ccf0f3a2b2f4e1211ff73960955110c"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/all_phase2_results.csv",
+      "sha256": "81ed38747a5653e38b098b6b54c41e6909ec89dbca93f06b23dc5a729904aa73"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/baf_full_natural_results.csv",
+      "sha256": "009f425d6566264b29ccc2ba9de17c942d9005f7e3b1a4aeeac14c789c17910c"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/baf_full_prediction_audit.csv",
+      "sha256": "19917def46f78414fc24da5930a401728fabecaa64ca9cde978d2543ca28c786"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/baf_full_prediction_audit.md",
+      "sha256": "7e0105bb8f2e02619a2d24b7a23b8430b4059f3e30e68ef10f4eb7bea010a584"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/figures/best_balanced_selective_risk_by_dataset.svg",
+      "sha256": "e4064f19cb2f0822862325c13fcb03428eb3ec8aef68ee88597e8c792a02b643"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/figures/symmetric_vs_asymmetric_risk.svg",
+      "sha256": "6d6c9162c957a1ba28f1f7fd67a52dab8f6349e0b8ec5b35f26f1a4b65fab228"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/key_tables/table_baf_full_none_by_model.csv",
+      "sha256": "48f9f24fb94768845de95c5878c1dcb94edcf51572441e04ed3bae13967135e1"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/key_tables/table_best_by_dataset.csv",
+      "sha256": "548360b7d58e8701a91104f86fbba0e06d0ed256d78b12c50aca874619f0dbc4"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/key_tables/table_paired_comparison_means.csv",
+      "sha256": "ebf86764639e50fed270273896e1a8ced290a9649cc62ebf6bce6075d5e87bed"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/local_50k_controlled_results.csv",
+      "sha256": "578751f62213286d55c70ceaec328b152a1ca8a0a5e8cbe3c9e99124bed00914"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/paired_differences.csv",
+      "sha256": "e97a016d035108d6b1aa14928fbdffffc5d694527f5cfdad93388c226b06d4d6"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/paper_artifacts/approx_coverage_risk_auc.csv",
+      "sha256": "54f76b6fca67391590c9f7dc15c168c1f5ef8af971b89eccff4d8155c65bea25"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/paper_artifacts/budget_curves.csv",
+      "sha256": "08bf7a8064a9e93bfb9ef800bfa5a795d751235dc53dd1f8aef113ef74787ed9"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/paper_artifacts/figures/allocation_asymmetry_by_budget.svg",
+      "sha256": "9329cf069002de00c3428b9ba4fcd25ac3d1265478be1a09100548a236431fa9"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/paper_artifacts/figures/asymmetric_vs_symmetric_delta_risk.svg",
+      "sha256": "8296819bfd5fbc9690618a5b0c4a5ed27b1720aa37c1e3593f16801849cdbd08"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/paper_artifacts/figures/budget_coverage_risk_tradeoff.svg",
+      "sha256": "aa2fd1303e9453d71ff616511038dd390493548e3c8a29077e0e5ad21605920b"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/paper_artifacts/figures/dual_vs_single_delta_risk.svg",
+      "sha256": "1bc175a22c4d92997cbd65be9485945b932ab939fca5ac383fbd05cceffce943"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/paper_artifacts/paired_unit_bootstrap_ci.csv",
+      "sha256": "c2061bb43d1eb02b7746001b48d5253cbf9f85ed0ea853e85e13f988bd797afc"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/paper_artifacts/revision_audit/calibration_policy_set_audit.csv",
+      "sha256": "b0395be55dd48d7d285846838463bdd0ff571fafff887dd1d5541eadb82a6b57"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/paper_artifacts/revision_audit/calibration_score_audit.csv",
+      "sha256": "05f5cc69318ea44f51e112b94d4c75e6ba5507e914bd2852defb2501688f862e"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/paper_artifacts/revision_audit/class_conditional_coverage.csv",
+      "sha256": "34af2b6e7b230f5d6fa787f5e8b699753b5a7b53190aed500e8d4bcf55014d6b"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/paper_artifacts/revision_audit/controlled_imbalance_effects.csv",
+      "sha256": "2ccb10f056983cbcbbaef0096c86f00b0cd3c5d92b9a63e5493e4ea3212401d5"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/paper_artifacts/revision_audit/default_vs_optimized_single.csv",
+      "sha256": "d14811c3d7846e9120c3e1e100978d48d382ce610960a75a3cfe2357508c147a"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/paper_artifacts/revision_audit/tie_budget_audit.csv",
+      "sha256": "d74f7fcdc17f704b6713a515c84784e4ced3a7a716ab4fe21005dce98a9de592"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/paper_artifacts/threshold_grid_sensitivity.csv",
+      "sha256": "4b164c2013b3ef75f41d95ceddd2e492c6dfd368bb3a4d4732c44e69f9378084"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/paper_artifacts/threshold_grid_sensitivity_summary.csv",
+      "sha256": "41df52949c6a3e036ccba03d20b78eea541c22c77935c4a65321ac7fc19f5e6c"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/paper_artifacts/threshold_stability.csv",
+      "sha256": "4ec5a760c8e084e22ec3e867ff6e2e2aaca8d0ab3bbd7caf0c84119251054798"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2/summary_by_policy.csv",
+      "sha256": "ec72b88fd905e27a24899f4f9d28fb483f46b7c7835077f1f6c358ef976df84d"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2_extension_baselines_when/all_phase2_results.csv",
+      "sha256": "d73ec68920ec3454f6667be9452295c06cca114121d90ce99208f9a5e3c54300"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2_extension_baselines_when/baf_full_natural_results.csv",
+      "sha256": "aebdd012240e4483490ab4c6b397aaa55f7ec97790a6f991e811a3562c6b3c26"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2_extension_baselines_when/figures/best_balanced_selective_risk_by_dataset.svg",
+      "sha256": "566b8016628fc3ec2c9ff2f7c90db3019088f36bb444a9e0b8fe224708528a15"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2_extension_baselines_when/figures/symmetric_vs_asymmetric_risk.svg",
+      "sha256": "6d6c9162c957a1ba28f1f7fd67a52dab8f6349e0b8ec5b35f26f1a4b65fab228"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2_extension_baselines_when/key_tables/table_baf_full_none_by_model.csv",
+      "sha256": "8f9982946a2d40d5fffe13d37dd8c5203056ae3e38dcd6331bbdd896cc19b60c"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2_extension_baselines_when/key_tables/table_best_by_dataset.csv",
+      "sha256": "966cca1e68f69c7ce4b585fe754d922cbbabda4dc054a981b2c26bfcf24d1b49"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2_extension_baselines_when/key_tables/table_paired_comparison_means.csv",
+      "sha256": "58e935db0bd6c647d61594cc260db7381e29ce5a9518ca8a72541e34238f13a2"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2_extension_baselines_when/local_50k_controlled_results.csv",
+      "sha256": "ce76343198b41a4bc93dc20cb6eea5c5fa125ba3e1c302da804c48b636077739"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2_extension_baselines_when/paired_differences.csv",
+      "sha256": "d5267caa7643478372d76fc14da406d12f8bad35f5b7d0a24aa66e2894e6d844"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2_extension_baselines_when/paper_artifacts/approx_coverage_risk_auc.csv",
+      "sha256": "54f76b6fca67391590c9f7dc15c168c1f5ef8af971b89eccff4d8155c65bea25"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2_extension_baselines_when/paper_artifacts/budget_curves.csv",
+      "sha256": "08bf7a8064a9e93bfb9ef800bfa5a795d751235dc53dd1f8aef113ef74787ed9"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2_extension_baselines_when/paper_artifacts/figures/allocation_asymmetry_by_budget.svg",
+      "sha256": "9329cf069002de00c3428b9ba4fcd25ac3d1265478be1a09100548a236431fa9"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2_extension_baselines_when/paper_artifacts/figures/asymmetric_vs_symmetric_delta_risk.svg",
+      "sha256": "a387e94566a9c2b70d4a17aa007108cf75c1a968e54889f0623dcee65f394760"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2_extension_baselines_when/paper_artifacts/figures/budget_coverage_risk_tradeoff.svg",
+      "sha256": "aa2fd1303e9453d71ff616511038dd390493548e3c8a29077e0e5ad21605920b"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2_extension_baselines_when/paper_artifacts/figures/dual_vs_single_delta_risk.svg",
+      "sha256": "559a5235c494c6642f0f0588f2fb86172276ccea0bbf7cb8635c995e2e8fd8c2"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2_extension_baselines_when/paper_artifacts/paired_unit_bootstrap_ci.csv",
+      "sha256": "bc40e02d2480575c5d4a656a4a94f790709a28d9bfa83bd3de5d3e22520ec763"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2_extension_baselines_when/paper_artifacts/threshold_stability.csv",
+      "sha256": "4ec5a760c8e084e22ec3e867ff6e2e2aaca8d0ab3bbd7caf0c84119251054798"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2_extension_baselines_when/paper_artifacts/when_diagnostic_summary.csv",
+      "sha256": "ad4992d9cbab2547f490da6225dcd3396a05bcd8e66c7bc676590702c25890c8"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2_extension_baselines_when/paper_artifacts/when_diagnostic_units.csv",
+      "sha256": "edc12942a47b10a4f7fb9388a77fd84a81b22718a1b636e3df4c116d060ce381"
+    },
+    {
+      "path": "results_imbalance_selective/final_phase2_extension_baselines_when/summary_by_policy.csv",
+      "sha256": "5746cf867a19ac4d25515f6efabc91f1283fe5aaf3eaf7c323f34da986daf5fd"
+    },
+    {
+      "path": "results_imbalance_selective/reports/controlled_imbalance_feasibility.csv",
+      "sha256": "094999a87bcc2f40f70be07dbe20605e2222287a617137402c6e19b3e9e6975e"
+    },
+    {
+      "path": "results_imbalance_selective/reports/final_training_manifest/README.md",
+      "sha256": "9ff81866416b95d58a8f02b5cf899d135478d2ee81391e7b5f4a58bb2be8c338"
+    },
+    {
+      "path": "results_imbalance_selective/reports/final_training_manifest/dataset_readiness.csv",
+      "sha256": "2b0b3cd28b76da17e55b1756830f95ce3e80e89bc9b50757a9d4238d8e0c85e9"
+    },
+    {
+      "path": "results_imbalance_selective/reports/final_training_manifest/evaluation_jobs.csv",
+      "sha256": "28536fa429e4f9e806bfc0e887c4e6db5557b87568af595fc61dbfbe78fd9036"
+    },
+    {
+      "path": "results_imbalance_selective/reports/final_training_manifest/matrix_summary.csv",
+      "sha256": "fe0680a494bb8a281bbba08af8262b12ec796c68191ecfdeb711e68f8ae2187c"
+    },
+    {
+      "path": "results_imbalance_selective/reports/final_training_manifest/training_jobs.csv",
+      "sha256": "79cd7e95b19d084ab82a960ffaf57a9594251f6707e729a51c5c57a1c685747d"
+    },
+    {
+      "path": "results_imbalance_selective/reports/smoke_test_summary.md",
+      "sha256": "069b77159f8d5aa17686916f8088a47fcb728eec9d0d29ca0d1ff09bf8ca8217"
+    },
+    {
+      "path": "data/README.md",
+      "sha256": "dca60bcc0149b009f9fc4ff75a62212497dce90965b45d9e35282e7b2826efec"
+    }
+  ]
+}

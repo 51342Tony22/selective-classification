@@ -1,0 +1,7 @@
+dataset,experiment,training_jobs,evaluation_jobs
+baf,controlled_imbalance,36,1152
+baf,natural_imbalance,9,288
+online_shoppers,controlled_imbalance,36,1152
+online_shoppers,natural_imbalance,9,288
+secom,controlled_imbalance,540,17280
+secom,natural_imbalance,135,4320

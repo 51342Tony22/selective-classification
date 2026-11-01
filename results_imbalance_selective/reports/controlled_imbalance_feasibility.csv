@@ -1,0 +1,16 @@
+dataset,seed,natural_train_rows,train_positive_n,train_negative_n,natural_majority_per_minority,target_ratio,feasible_without_duplication,sampling_mode,minimal_drop_positive_n,minimal_drop_negative_n,minimal_drop_train_rows,fixed_common_train_rows,fixed_common_positive_n,fixed_common_negative_n,fixed_common_feasible,positive_count_warning
+baf_base,7,33784,338,33446,98.95266272189349,1:3,True,majority_downsample_only,0,32432,1352,1352,338,1014,True,False
+baf_base,7,33784,338,33446,98.95266272189349,1:5,True,majority_downsample_only,0,31756,2028,1352,225,1127,True,False
+baf_base,7,33784,338,33446,98.95266272189349,1:10,True,majority_downsample_only,0,30066,3718,1352,122,1230,True,False
+baf_base,7,33784,338,33446,98.95266272189349,1:20,True,majority_downsample_only,0,26686,7098,1352,64,1288,True,False
+baf_base,7,33784,338,33446,98.95266272189349,1:50,True,majority_downsample_only,0,16546,17238,1352,26,1326,True,False
+online_shoppers_purchasing_intention,7,7398,1145,6253,5.461135371179039,1:3,True,majority_downsample_only,0,2818,4580,4580,1145,3435,True,False
+online_shoppers_purchasing_intention,7,7398,1145,6253,5.461135371179039,1:5,True,majority_downsample_only,0,528,6870,4580,763,3817,True,False
+online_shoppers_purchasing_intention,7,7398,1145,6253,5.461135371179039,1:10,True,minority_downsample_required,520,0,6878,4580,416,4164,True,False
+online_shoppers_purchasing_intention,7,7398,1145,6253,5.461135371179039,1:20,True,minority_downsample_required,833,0,6565,4580,218,4362,True,False
+online_shoppers_purchasing_intention,7,7398,1145,6253,5.461135371179039,1:50,True,minority_downsample_required,1020,0,6378,4580,89,4491,True,False
+secom,7,751,50,701,14.02,1:3,True,majority_downsample_only,0,551,200,200,50,150,True,False
+secom,7,751,50,701,14.02,1:5,True,majority_downsample_only,0,451,300,200,33,167,True,False
+secom,7,751,50,701,14.02,1:10,True,majority_downsample_only,0,201,550,200,18,182,True,True
+secom,7,751,50,701,14.02,1:20,True,minority_downsample_required,15,0,736,200,9,191,True,True
+secom,7,751,50,701,14.02,1:50,True,minority_downsample_required,36,0,715,200,3,197,True,True

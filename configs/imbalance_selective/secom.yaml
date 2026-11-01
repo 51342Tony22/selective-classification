@@ -1,0 +1,32 @@
+dataset:
+  name: secom
+  domain: semiconductor_manufacturing
+  source: uci_ml_repository_id_179
+  local_path: data/raw/secom
+  target: label
+  original_labels:
+    pass: -1
+    fail: 1
+  positive_label_after_mapping: 1
+  split:
+    type: repeated_stratified_cv
+    folds: 5
+    repeats: 3
+
+preprocessing:
+  numeric_imputation: median
+  scaling: standard
+  remove_constant_features: true
+  fit_preprocessing_on_training_only: true
+
+models:
+  smoke_test: logistic_regression
+  full: [logistic_regression, lightgbm, mlp]
+
+calibration:
+  smoke_test: [none]
+  full: [none, platt, isotonic, temperature]
+
+thresholds:
+  single_baselines: [default_0_5, macro_f1, balanced_accuracy, mcc]
+  abstention_budgets: [0.01, 0.02, 0.05, 0.10]
